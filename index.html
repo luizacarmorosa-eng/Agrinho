@@ -3,14 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agro Forte: O Futuro do Campo</title>
+    <title>Agro Forte: O Futuro Tecnológico</title>
+    <style>
+        /* Configurações Gerais de Cores e Fonte */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Topo da Página (Header) */
+        header {
+            background: linear-gradient(135deg, #1b4332, #081c15);
+            color: #fff;
+            padding: 3rem 1rem;
+            text-align: center;
+            border-bottom: 5px solid #52b788;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #d8f3dc;
+            font-weight: 300;
+        }
+
+        /* Container Principal */
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* Seção de Introdução */
+        .intro {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+            border-left: 5px solid #2d6a4f;
+        }
+
+        .intro h2 {
+            color: #1b4332;
+            margin-bottom: 1rem;
+        }
+
+        /* Grade de Cartões (Seção de IA e Tecnologia) */
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+            border-top: 4px solid #52b788;
+        }
+
+        /* Efeito visual quando passa o mouse por cima do cartão */
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #1b4332;
+            margin-bottom: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        /* Rodapé (Footer) */
+        footer {
+            background-color: #081c15;
+            color: #74c69d;
+            text-align: center;
+            padding: 1.5rem 1rem;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+
+        footer p a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
+
     <header>
-        <h1>Agro Forte e Tecnológico</h1>
+        <h1>Agro Forte & Inteligente</h1>
+        <p>Como a Inteligência Artificial e a tecnologia estão moldando o futuro do campo</p>
     </header>
-    <main>
-        <p>Bem-vindo à nossa página sobre a força e a tecnologia no agronegócio!</p>
+
+    <main class="container">
+        
+        <section class="intro">
+            <h2>A Força do Nosso Campo</h2>
+            <p>O agronegócio é um dos pilares mais importantes do nosso país, garantindo o alimento na mesa de milhões de pessoas e movimentando a economia. Hoje, essa força se une à tecnologia digital para criar um ecossistema mais produtivo, eficiente e sustentável.</p>
+        </section>
+
+        <h2 style="color: #1b4332; margin-top: 2rem;">Tecnologias que Transformam o Agro</h2>
+        
+        <div class="tech-grid">
+            
+            <div class="card">
+                <h3>🛸 Drones e Satélites</h3>
+                <p>Mapeiam plantações inteiras em minutos. Com a ajuda de algoritmos de visão computacional, conseguem identificar pragas ou falhas na lavoura antes mesmo do olho humano perceber.</p>
+            </div>
+
+            <div class="card">
+                <h3>🧠 Inteligência Artificial</h3>
+                <p>Modelos de IA analisam dados climáticos históricos e sensores de solo para prever o melhor momento de plantar, colher ou aplicar nutrientes, reduzindo o desperdício.</p>
+            </div>
+
+            <div class="card">
+                <h3>🌱 Sustentabilidade</h3>
+                <p>A tecnologia permite produzir muito mais usando menos recursos. Sensores de irrigação inteligente economizam água, aplicando-a apenas onde e quando a planta realmente precisa.</p>
+            </div>
+
+        </div>
+
     </main>
+
+    <footer>
+        <p>Desenvolvido por uma estudante de Técnico de IA | Educação Digital e Computação (Alura)</p>
+    </footer>
+
 </body>
 </html>
