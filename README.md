@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agro Forte: O Futuro do Campo</title>
+    Agro Forte: O Futuro do Campo
 </head>
 <body>
     <header>
